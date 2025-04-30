@@ -71,10 +71,6 @@ This project is **100% free** to use and modify. No restrictions—use it for pe
 
 For questions or feedback, please email me at **jerlenh12@gmail.com** or open an issue here.  
 
----
 
 
-- Template README oleh [PurpleBooth](https://github.com/PurpleBooth/a-good-readme-template)  
-```
 
-Dengan dua file README ini, dokumentasi Anda jadi **terstruktur**, **informatif**, dan **mudah diikuti**—baik oleh pengguna global maupun pengguna lokal Indonesia.
