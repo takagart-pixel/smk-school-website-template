@@ -1,7 +1,4 @@
 
----
-
-## English README (`README.md`)
 
 ```markdown
 # SMK School Website Template  
