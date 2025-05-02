@@ -1,72 +1,120 @@
 <!DOCTYPE html>
+<!-- SMK School Website Template
+Created by Miawwh
+GitHub: https://github.com/Miawwh
+Repository: https://github.com/Miawwh/smk-school-website-template
+
+This is a free, static HTML/CSS template built with Bootstrap 5 for school websites.
+You may customize content, images, and styles as you wish.
+No special license is required, but attribution is appreciated.
+Thank you for using this template!
+-->
 <html lang="id">
   <head>
-      <!-- Charset dan Viewport untuk Responsif -->
+    <!-- REQUIRED META TAGS -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Title (Ganti {{PAGE_TITLE}} dengan judul halaman) -->
+    <!-- PAGE TITLE -->
+    <!-- Replace {{PAGE_TITLE}} with your actual page title -->
     <title>Beranda | SMK INOVASI DIGITAL MANADO</title>
-     <!-- Meta Description (≤160 karakter) -->
-    <meta name="description" content="Template website sekolah dengan data dummy—mudah diubah sesuai kebutuhan. Contoh: profil, visi misi, berita, dsb.">
-     <!-- Meta Keywords (Opsional, Google abaikan tapi Bing & lainnya kadang pakai) -->
-     <meta name="keywords" content="sekolah, SMK, template, pendidikan, RPL, TKJ, DKV, sekolah digital, template website sekolah SMK, template website gratis" />
+    <!-- Meta Description (≤160 characters) -->
+    <meta
+      name="description"
+      content="School website template with dummy data—easy to customize. Examples: profile, vision & mission, news, etc."
+    />
+
+    <!-- Meta Keywords (Optional) -->
+    <meta
+      name="keywords"
+      content="school, vocational school, template, education, RPL, TKJ, DKV, digital school, SMK website template, free template"
+    />
+
     <!-- Meta Author -->
     <meta name="author" content="Miawwh" />
-     <!-- Meta Robots (index, follow agar diindeks & diikuti crawler) -->
-     <meta name="robots" content="index, follow" />
-    <!-- Canonical URL (untuk menghindari duplikat konten) -->
-    <link rel="canonical" href="https://github.com/Miawwh/smk-school-website-template" />
-    <!-- Open Graph (Facebook, LinkedIn, dsb.) -->
-    <meta property="og:title" content="Beranda | SMK School Website Template" />
-    <meta property="og:description" content="Template website sekolah dengan data dummy—mudah diubah sesuai kebutuhan." />
+
+    <!-- Meta Robots (index, follow for SEO) -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical URL to avoid duplicate content -->
+    <link
+      rel="canonical"
+      href="https://github.com/Miawwh/smk-school-website-template"
+    />
+
+    <!-- Open Graph for social media -->
+    <meta property="og:title" content="Home | SMK School Website Template" />
+    <meta
+      property="og:description"
+      content="School website template with dummy data—easy to customize."
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://github.com/Miawwh/smk-school-website-template" />
-    <meta property="og:image" content="https://github.com/Miawwh/smk-school-website-template/raw/main/assets/img/og-image.png" />
+    <meta
+      property="og:url"
+      content="https://github.com/Miawwh/smk-school-website-template"
+    />
+    <meta
+      property="og:image"
+      content="https://miawwh.github.io/smk-school-website-template/assets/img/Screenshot(202).PNG"
+    />
     <meta property="og:site_name" content="SMK School Website Template" />
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Beranda | SMK School Website Template" />
-    <meta name="twitter:description" content="Template website sekolah dengan data dummy—mudah diubah sesuai kebutuhan." />
-    <meta name="twitter:image" content="https://github.com/Miawwh/smk-school-website-template/raw/main/assets/img/twitter-image.png" />
+    <meta name="twitter:title" content="Home | SMK School Website Template" />
+    <meta
+      name="twitter:description"
+      content="School website template with dummy data—easy to customize."
+    />
+    <meta
+      name="twitter:image"
+      content="https://miawwh.github.io/smk-school-website-template/assets/img/Screenshot(202).PNG"
+    />
 
-    <!-- Structured Data (JSON-LD untuk Schema.org) -->
+    <!-- Structured Data (JSON-LD for Schema.org) -->
     <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "SMK Inovasi Digital Manado",
-    "url": "https://github.com/Miawwh/smk-school-website-template",
-    "logo": "https://github.com/Miawwh/smk-school-website-template/raw/main/assets/img/logo.png",
-    "sameAs": [
-      "https://www.facebook.com/yourpage",
-      "https://www.instagram.com/yourpage"
-    ]
-  }
-  </script>
-
-
-    <!-- Font GoogleFonts -->
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SMK Inovasi Digital Manado",
+        "url": "https://github.com/Miawwh/smk-school-website-template",
+        "logo": "https://miawwh.github.io/smk-school-website-template/assets/img/Screenshot(202).PNG",
+        "sameAs": [
+          "https://www.facebook.com/yourpage",
+          "https://www.instagram.com/yourpage"
+        ]
+      }
+    </script>
+    <!-- GOOGLE FONTS -->
+    <!-- Montserrat font family - Can be changed to other Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Icon Boostrap  -->
+    <!-- BOOTSTRAP ICONS -->
+    <!-- Icon set from Bootstrap Icons v1.11.3 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Boostrap CSS -->
+    <!-- BOOTSTRAP 5 CSS -->
+    <!-- Core Bootstrap CSS - Version 5.3.5 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"/>
-    <!-- CSS Custom Navbar -->
+    <!-- CUSTOM CSS FILES -->
+    <!-- Custom stylesheets - Modify these files for styling changes -->
     <link rel="stylesheet" href="assets/css/navbar.css">
-    <!-- CSS Custome Footer -->
-     <link rel="stylesheet" href="assets/css/footer.css">
-    <!-- CSS Home Page -->
-     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/home.css">
   </head>
 
   <body>
-    <!-- Navbar Boostrap -->
+    <!-- Navbar component implemented following the tutorial by Code_Jungle:
+      • YouTube: https://www.youtube.com/@CodeJungle
+      • Instagram: https://www.instagram.com/code.jungle/
+      • GitHub: https://github.com/codeboysk
+      • Video Reference: https://youtu.be/h5apE3E72wY?si=9W9CfMttM9Fk8WGT
+      Thank you, @Code_Jungle, for the clear guidance! -->
+    <!-- MAIN NAVIGATION -->
+    <!-- Responsive offcanvas navbar - Replace logo and menu items as needed -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -98,18 +146,18 @@
             ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 text-capitalize">
               <li class="nav-item">
-                <a class="nav-link mx-lg-2 text-capitalize active" aria-current="page" href="#">beranda</a>
+                <a class="nav-link mx-lg-2 active" aria-current="page" href="#">beranda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-lg-2 text-capitalize" href="#">profil sekolah</a>
+                <a class="nav-link mx-lg-2" href="#">profil sekolah</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-lg-2 text-capitalize" href="#">program keahlian</a>
+                <a class="nav-link mx-lg-2" href="#">program keahlian</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-lg-2 text-capitalize" href="#">berita & kegiatan</a>
+                <a class="nav-link mx-lg-2" href="#">berita & kegiatan</a>
               </li>
           </div>
         </div>
@@ -117,7 +165,8 @@
     </nav>
     <!-- End Navbar -->
 
-     <!-- Hero Section -->
+    <!-- HERO SECTION -->
+    <!-- Full-width header section - Background set in CSS -->
       <main class="hero-section">
         <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column d-sm text-center ">
           <h1 class="display-3 fw-bold text-uppercase">smk inovasi digital manado</h1>
@@ -127,7 +176,8 @@
       </main>
       <!-- End Hero Section -->
 
-      <!-- Section Visi Misi Tujuan -->
+    <!-- VISION MISSION SECTION -->
+    <!-- Three-column layout for school's vision, mission, and goals -->
       <section id="about" class="py-5 text-capitalize ">
         <div class="container ">
           <div class="row">
@@ -153,15 +203,16 @@
         </div>
         </div>
       </section>
-      <!-- End Section Visi Misi Tujuan -->
+    <!-- END VISION MISSION SECTION -->
        
-      <!-- Section Jurusan Unggulan -->
+    <!-- STUDY PROGRAMS SECTION -->
+    <!-- Card layout for featured academic programs -->
        <section class="py-5 ">
         <div class="container">
           <h2 class="text-center mb-4 text-capitalize fw-bold">jurusan unggulan</h2>
           <div class="row">
 
-            <!-- Jurusan RPL -->
+            <!-- Program RPL -->
             <div class="col-md-4 pt-2">
               <div class="card h-100">
                 <img src="assets/img/rpl.jpg" loading="lazy" alt="" class="card-img-top img-jurusan">
@@ -176,7 +227,7 @@
               </div>
             </div>
 
-            <!-- Jurusan TKJ -->
+            <!-- Program TKJ -->
             <div class="col-md-4 pt-2 ">
               <div class="card h-100">
                 <img src="assets/img/tkj.jpg" loading="lazy" alt="" class="card-img-top img-jurusan">
@@ -191,7 +242,7 @@
               </div>
             </div>
 
-            <!-- Jurusan DKV -->
+            <!-- Program DKV -->
             <div class="col-md-4 pt-2">
               <div class="card h-100">
                 <img src="assets/img/dkv.jpg" loading="lazy" alt="" class="card-img-top img-jurusan" >
@@ -206,13 +257,28 @@
               </div>
             </div>
 
-            <!-- Tambahankan Code Yang Sama Seperti Code di atas Jika ingin Menambahkan Jurusan Yang Lebih Dari 3 -->
+            <!-- <div class="col-md-4 pt-2">
+              <div class="card h-100">
+                <img src="assets/img/dkv.jpg" loading="lazy" alt="" class="card-img-top img-jurusan" >
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize">Name Program</h5>
+                  <p class="card-text text-capitalize">In this section, fill in a brief definition of the program in the school</p>
+                  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+                    baca selengkapnya
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- If you want to add more than 3 program cards, you can copy it like the code above and must leave 3 closing tags, namely /div, /div and /section. so that the program card can match and not have problems -->
 
           </div>
         </div>
        </section>
        
-       <!-- Section Mengapa Pilih Kami -->
+      <!-- WHY CHOOSE US SECTION -->
+      <!-- Three-column layout with icons -->
       <section class="py-5 bg-dark text-capitalize text-white text-center">
         <div class="container">
           <h2 class="text-center mb-3 text-uppercase">mengapa pilih kami?</h2>
@@ -256,9 +322,10 @@
           </div>
         </div>
       </section>
-<!-- End Section  -->
+<!-- END SECTION WHY CHOOSE US -->
 
-<!-- Section Berita  -->
+<!-- NEWS SECTION -->
+<!-- Main news + side news layout -->
  <div class="container py-5">
   <div class="text-center mb-4">
     <h2 class="text-uppercase mb-3 fw-bold">berita terbaru</h2>
@@ -266,7 +333,7 @@
   </div>
 
   <div class="row g-3">
-    <!-- Berita Utama -->
+    <!-- Main News -->
     <div class="col-md-8">
       <div class="card text-white border-0 overflow-hidden">
         <img src="assets/img/omg.jpg" alt="" class="card-img" style="height: 500px; object-fit: cover" />
@@ -281,7 +348,7 @@
       </div>
     </div>
 
-    <!-- Berita Samping (2 Berita) -->
+    <!-- News Item 1 -->
      <div class="col-md-4">
       <div class="row h-100 g-3">
 
@@ -300,7 +367,7 @@
           </div>
          </div>
 
-         <!-- Berita 2 -->
+        <!-- News Item 2 -->
          <div class="col-12">
           <div class="card text-white border-0 h-100 overflow-hidden">
             <img src="assets/img/Screenshot (173).png" alt="" class="card-img" style="height: 240px; object-fit:cover">
@@ -317,9 +384,9 @@
 
   </div>
  </div>
-<!-- End Section Berita -->
+<!-- END NEWS SECTION -->
 
-<!-- Section Testimoni -->
+ <!-- Section Testimonials -->
  <div class="container py-5">
   <div class="row mb-4">
     <div class="col-12 col-md-10 col-lg-8">
@@ -328,13 +395,13 @@
     </div>
   </div>
 
-  <!-- Carousel Testimoni -->
+  <!-- Testimonial Carousel -->
    <div class="row">
     <div class="col-12">
       <div id="testimoniCarousel" class="carousel slide" data-bs-ride="carousel">
         <!-- Slides -->
          <div class="carousel-inner">
-          <!-- Slide ke 1 -->
+           <!-- Slide 1 -->
            <div class="carousel-item active py-5">
             <div class="card mx-auto" style="max-width: 600px;">
               <div class="card-body bg-body-secondary p-4">
@@ -353,7 +420,7 @@
             </div>
            </div>
 
-           <!-- Slide ke 2 -->
+           <!-- Slide 2 -->
            <div class="carousel-item py-5">
             <div class="card mx-auto" style="max-width: 600px;">
               <div class="card-body bg-body-secondary p-4">
@@ -372,7 +439,7 @@
             </div>
            </div>
 
-           <!-- Slide ke 3 -->
+           <!-- Slide 3 -->
            <div class="carousel-item py-5">
             <div class="card mx-auto" style="max-width: 600px;">
               <div class="card-body bg-body-secondary p-4">
@@ -391,7 +458,7 @@
             </div>
            </div>
 
-           <!-- Slide ke 4 -->
+           <!-- Slide 4 -->
            <div class="carousel-item py-5">
             <div class="card mx-auto" style="max-width: 600px;">
               <div class="card-body bg-body-secondary p-4">
@@ -410,7 +477,7 @@
             </div>
            </div>
 
-           <!-- Slide ke 5 -->
+           <!-- Slide 5 -->
            <div class="carousel-item py-5">
             <div class="card mx-auto" style="max-width: 600px;">
               <div class="card-body bg-body-secondary p-4">
@@ -429,7 +496,25 @@
             </div>
            </div>
 
-           <!-- Tambahkan Slide Jika Ingin Slide Lebih dari 5 -->
+           <!-- <div class="carousel-item py-5">
+            <div class="card mx-auto" style="max-width: 600px;">
+              <div class="card-body bg-body-secondary p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="assets/img/14189646.png" alt="" class="rounded-circle me-3" width="60" />
+                  <div>
+                    <h5 class="mb-0">Hacker</h5>
+                    <small class="text-muted">Alumni Angkatan ke 1</small>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-quote text-primary"></i>
+                  "Saya bangga menjadi alumni dari sekolah ini. Mereka telah memberikan pendidikan yang sangat baik dan mempersiapkan saya untuk sukses di dunia kerja."
+                </p>
+              </div>
+            </div>
+           </div> -->
+
+           <!-- If you want to add more than 5 slides, you can copy like the code above -->
 
            </div>
            <!-- Navigasi -->
@@ -445,14 +530,18 @@
  </div>
 </div>
 </div>
- <!-- End Section Testimoni -->
+<!-- END SECTION TESTIMONIALS --> 
 
- <!-- Footer -->
+ <!-- Footer component adapted from @anonymous on BootstrapExamples:
+    • Author: @anonymous (https://bootstrapexamples.com/@anonymous)
+    • Original code: https://bootstrapexamples.com/@anonymous/footer-4
+      Thank you, @anonymous, for the excellent footer template! -->
+<!-- FOOTER -->
 <section class="bg-dark py-5">
   <footer class="mt-auto bg-dark text-white pt-4 pb-4">
     <div class="container">
         <div class="row">
-            <!-- Informasi Tentang Sekolah Secara Singkat -->
+          <!-- Brief information about the school/company -->
             <div class="col-md-3 mb-3">
                 <h5>SMK Inovasi Digital Manado</h5>
                 <p>Sekolah Menengah Kejuruan berbasis teknologi digital di Manado yang mencetak profesional muda bidang RPL, TKJ, dan DKV. Terakreditasi A dengan fasilitas modern dan pengajar berpengalaman.</p>
@@ -485,7 +574,7 @@
                 </ul>
             </div>
 
-            <!-- Informasi Kontak Sekolah/Perusahaan -->
+            <!-- School/Company Contact -->
             <div class="col-md-3 mb-3">
                 <h5>Kontak Kami</h5>
                 <ul class="list-unstyled">
@@ -495,7 +584,7 @@
                 </ul>
             </div>
 
-            <!-- Media Sosial Sekolah/Perusahaan -->
+            <!-- School/Company Social Media -->
             <div class="col-md-3 mb-3">
                 <h5>Media Sosial</h5>
                 <ul class="list-inline">
@@ -510,7 +599,7 @@
 
         <hr class="bg-light">
 
-        <!-- Author/Pencipta Website -->
+        <!-- Author/Creator Website -->
         <div class="row">
             <div class="col-md-12 text-center">
                 <p class="mb-0">&copy; 2024 SMK Inovasi Digital Manado. Hak Cipta Dilindungi.</p>
@@ -519,7 +608,7 @@
     </div>
 </footer>
 </section>
- <!-- Footer End -->
+  <!-- END FOOTER -->
  
     <!-- Script JS Boostrap -->
     <script
