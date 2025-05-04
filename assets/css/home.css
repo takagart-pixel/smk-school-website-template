@@ -8,7 +8,8 @@ body {
 }
 
 .hero-section {
-  background: url(../img/ed-us-uHPfTGy-Lto-unsplash.jpg) no-repeat center;
+  background: url(../img/background-hero-section-smk-inovasi-digital-manado.avif)
+    no-repeat center;
   background-size: cover;
   width: 100%;
 }
@@ -127,4 +128,10 @@ footer {
 
 .social-icons a {
   font-size: 1.25rem;
+}
+
+.rounded-circle {
+  object-fit: cover;
+  height: 60px;
+  width: 60px;
 }
