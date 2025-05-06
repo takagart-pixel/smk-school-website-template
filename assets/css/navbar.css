@@ -55,4 +55,30 @@
     visibility: visible;
     color: #2074d3;
   }
+
+  .link-nav-dropdown::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: #2074d3;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .link-nav-dropdown:hover::before,
+  .link-nav-dropdown.active::before {
+    width: 50%;
+    visibility: visible;
+    color: #2074d3;
+  }
+}
+
+.link-nav-dropdown {
+  color: #666777;
+  font-weight: 500;
+  position: relative;
 }
