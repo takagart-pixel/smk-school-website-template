@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="assets/css/navbar.css">
     <!-- Footer CSS Custome -->
     <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- Profile School/Company CSS -->
+     <link rel="stylesheet" href="/assets/css/profil-page.css">
   </head>
   <body>
     <!-- Navbar component implemented following the tutorial by Code_Jungle:
@@ -36,54 +38,94 @@
     <!-- MAIN NAVIGATION -->
     <!-- Responsive offcanvas navbar - Replace logo and menu items as needed -->
     <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-              <img class="img" src="assets/img/logo-sekolah-tut-wuri-handayani.avif" alt="Logo Sekolah" width="auto" height="40">
-            </a>
-          <button
-            class="navbar-toggler pe-0"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">smk inovasi digital manado</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 text-capitalize">
-                <li class="nav-item">
-                  <a class="nav-link link-nav mx-lg-2" aria-current="page" href="index.html">beranda</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-nav mx-lg-2 active" href="#">profil sekolah</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-nav mx-lg-2" href="program-keahlian.html">program keahlian</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-nav mx-lg-2" href="berita-kegiatan.html">berita & kegiatan</a>
-                </li>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img class="img" src="assets/img/logo-sekolah-tut-wuri-handayani.avif" alt="Logo Sekolah" width="auto" height="40">
+          </a>
+        <button
+          class="navbar-toggler pe-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">smk inovasi digital manado</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 text-capitalize">
+              <li class="nav-item">
+                <a class="nav-link link-nav mx-lg-2" aria-current="page" href="index.html">beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-nav mx-lg-2 active" href="#">profil sekolah</a>
+              </li>
+
+              <li class="nav-item dropdown link-nav">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Program Keahlian
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item link-nav-dropdown" href="#">Rekayasa Perangkat Lunak</a></li>
+                  <li><a class="dropdown-item link-nav-dropdown" href="#">Teknik Komputer dan Jaringan</a></li>
+                  <li><a class="dropdown-item link-nav-dropdown" href="#">Desain Komunikasi Visual</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link link-nav mx-lg-2" href="berita-kegiatan.html">berita & kegiatan</a>
+              </li>
           </div>
         </div>
-      </nav>
-      <!-- End Navbar -->
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+     <!-- HERO SECTION -->
+    <!-- Full-width header section - Background set in CSS -->
+    <main class="hero-section">
+      <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column d-sm text-center ">
+        <h1 class="display-3 fw-bold text-uppercase">profil smk inovasi digital manado</h1>
+        <a href="#about" class="btn btn-outline-light"><i class="bi bi-arrow-down"></i> </a>
+      </div>
+    </main>
+    <!-- End Hero Section -->
+    
+    <!-- Section Sejarah Sekolah -->
+    <section id="about" class="py-5 text-capitalize ">
+      <div class="container ">
+        <div class="text-center mb-5">
+          <h2 class="text-uppercase">sejarah smk inovasi digital manado</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-8 order-1">
+          <h5 class="text-uppercase">Sejarah Sekolah</h5>
+          <p class="text-capitalize">Sekolah Menengah Kejuruan (SMK) Inovasi Digital Manado didirikan pada tahun 2018 dengan tujuan untuk memberikan pendidikan kejuruan yang berkualitas dan relevan dengan perkembangan teknologi informasi dan komunikasi. Sekolah ini berkomitmen untuk mencetak lulusan yang siap menghadapi tantangan dunia kerja di era digital.</p>
+        </div>
+
+        <div class="col-md-4 order-md-2 text-center ">
+          <img src="assets/img/logo-sekolah-tut-wuri-handayani.avif" alt="" class="img-fluid mb-3 mb-sm-0 w-75 logo-sekolah">
+        </div>
+
+      </div>
+      </div>
+    </section>
+    
 
 
     <script
