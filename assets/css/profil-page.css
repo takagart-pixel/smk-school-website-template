@@ -7,6 +7,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 .hero-section {
   background: url(../img/haidan-OZOq5gH0Oi4-unsplash.jpg) no-repeat center;
   background-size: cover;
@@ -33,4 +37,36 @@ body {
   .logo-sekolah {
     width: 60% !important;
   }
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.bi-lightbulb:hover {
+  color: #ffd700;
+  transition: color 0.3s ease;
+}
+
+.bi-people:hover {
+  color: #00bfff;
+  transition: color 0.3s ease;
+}
+
+.bi-bullseye:hover {
+  color: #32cd32;
+  transition: color 0.3s ease;
+}
+
+.img-fasilitas {
+  height: 12.5rem;
+  object-fit: cover;
+}
+
+.scale-up:hover {
+  transform: scale(1.05);
+}
+
+.scale-up {
+  transition: transform 0.3s;
 }
