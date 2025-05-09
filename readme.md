@@ -41,7 +41,7 @@ Welcome to the **SMK School Website Template**, a free and open‑source HTML/CS
 2. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Miawwh/smk-school-website-template.git .
+   git clone "https://github.com/Miawwh/smk-school-website-template.git" 
    ```
 
    > _Note_: Make sure you have [Git installed](https://git-scm.com/) on your system.
