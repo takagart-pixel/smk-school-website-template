@@ -75,12 +75,6 @@ Welcome to the **SMK School Website Template**, a free and open‑source HTML/CS
 7. **Need more guidance?** If you're still a bit confused, watch this YouTube tutorial:
    https://youtu.be/q9wc7hUrW8U?si=lHNXVNABfwGBCxNu
 
-   - 🔹 **Free options**:
-     - **GitHub Pages**: Push to a `gh-pages` branch or enable Pages in repo settings
-     - **Netlify**: Drag & drop the project folder or connect via Git
-     - **Vercel**: Import your GitHub repository and deploy instantly
-   - 🔸 **Paid hosting**: Upload the `index.html` and `assets/` folder to any static file–capable server
-
 ---
 
 ## ✏️ Customization
