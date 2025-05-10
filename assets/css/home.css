@@ -91,17 +91,6 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.carousel-indicators [data-bs-target] {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-.carousel-indicators .active {
-  background-color: #007bff;
-}
-
 .card:hover {
   transform: scale(1.05);
 }
@@ -118,6 +107,7 @@ body {
 .carousel-control-next-icon {
   background-color: #007bff;
   border-radius: 50%;
+  color: #32cd32;
 }
 
 footer {
