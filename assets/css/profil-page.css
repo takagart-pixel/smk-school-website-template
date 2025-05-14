@@ -62,11 +62,3 @@ body {
   height: 12.5rem;
   object-fit: cover;
 }
-
-.scale-up:hover {
-  transform: scale(1.05);
-}
-
-.scale-up {
-  transition: transform 0.3s;
-}
