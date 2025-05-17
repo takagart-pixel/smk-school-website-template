@@ -62,3 +62,16 @@ body {
   height: 12.5rem;
   object-fit: cover;
 }
+
+.img-rpl {
+  height: 25.5rem;
+  object-fit: cover;
+}
+
+.img-bg-shadow {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85) 20%,
+    rgba(0, 0, 0, 0.2) 80%
+  );
+}
