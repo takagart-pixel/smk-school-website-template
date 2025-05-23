@@ -8,25 +8,31 @@ body {
 }
 
 .hero-section {
+  position: relative; /* supaya ::before “melekat” di sini */
+  height: 100vh; /* gunakan vh statis, biar nggak berubah saat scroll */
   background: url(../img/jurusan-rpl.avif) no-repeat center;
   background-size: cover;
   width: 100%;
+  overflow: hidden; /* mencegah isi “mencuat” */
 }
 
 .hero-section::before {
-  background-color: rgba(0, 0, 0, 0.6);
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  inset: 0; /* shorthand untuk top:0; right:0; bottom:0; left:0; */
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0; /* di bawah konten */
 }
 
 .hero-section .container {
-  height: 100dvh;
-  z-index: 1;
   position: relative;
+  z-index: 1; /* di atas overlay */
+  height: 100%; /* 100% dari height .hero-section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .text-justify {
