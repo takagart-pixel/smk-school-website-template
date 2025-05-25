@@ -34,3 +34,22 @@ body {
 .text-news {
   transition: 0.3s ease;
 }
+
+.icon-instagram {
+  background: linear-gradient(45deg, #833ab4, #e1306c, #f77737);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.icon-tiktok {
+  color: #ff0050;
+}
+
+.icon-youtube {
+  color: #cc0000;
+}
+
+.icon-facebook {
+  color: #007bff;
+}
