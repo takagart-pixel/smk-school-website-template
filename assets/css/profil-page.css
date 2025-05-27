@@ -72,3 +72,23 @@ body {
     rgba(0, 0, 0, 0.2) 80%
   );
 }
+
+@media (min-width: 1024px) {
+  .scale-up:hover {
+    transform: scale(1.05);
+  }
+
+  .scale-up {
+    transition: transform 0.3s;
+  }
+}
+
+.text-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}

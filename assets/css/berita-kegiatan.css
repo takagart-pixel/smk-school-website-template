@@ -53,3 +53,13 @@ body {
 .icon-facebook {
   color: #007bff;
 }
+
+@media (min-width: 1024px) {
+  .scale-up:hover {
+    transform: scale(1.05);
+  }
+
+  .scale-up {
+    transition: transform 0.3s;
+  }
+}
