@@ -68,6 +68,10 @@ Thank you for using this template!
       rel="stylesheet"
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"/>
+        <!-- CSS Sal.js -->
+  <link rel="stylesheet" href="https://unpkg.com/sal.js@0.8.5/dist/sal.css">
+   <!-- JS Sal.js -->
+  <script src="https://unpkg.com/sal.js@0.8.5/dist/sal.js"></script>
     <!-- CUSTOM CSS FILES -->
     <!-- Custom stylesheets - Modify these files for styling changes -->
     <!-- Navbar CSS Custome -->
@@ -87,7 +91,7 @@ Thank you for using this template!
       Thank you, @Code_Jungle, for the clear guidance! -->
     <!-- MAIN NAVIGATION -->
     <!-- Responsive offcanvas navbar - Replace logo and menu items as needed -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav data-sal="slide-down" data-sal-duration="900" class="navbar navbar-expand-lg fixed-top shadow-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
             <img class="img" src="assets/img/logo-sekolah-tut-wuri-handayani.avif" alt="Logo Sekolah" width="auto" height="40">
@@ -148,13 +152,14 @@ Thank you for using this template!
 
     <!-- HERO SECTION -->
     <!-- Full-width header section - Background set in CSS -->
-      <main class="hero-section">
-        <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column d-sm text-center ">
+     <main>
+      <section class="hero-section">
+        <div data-sal="slide-up" data-sal-duration="900" class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column d-sm text-center ">
           <h1 class="display-3 fw-bold text-uppercase">smk inovasi digital manado</h1>
           <h2 class="d-sm fs-4"><em>Membangun Pemikir Digital, Menciptakan Solusi Masa Depan</em></h2>
           <a href="#Temukan" class="btn btn-outline-light fw-bold m-3 text-capitalize">Temukan Potensimu Sekarang! <i class="bi bi-arrow-down"></i> </a>
         </div>
-      </main>
+      </section>
       <!-- End Hero Section -->
 
    <!-- Section visi,misi -->
@@ -164,7 +169,7 @@ Thank you for using this template!
         <div class="row">
           <!-- Visi -->
           <div class="col-md-4 mb-4">
-            <div class="card h-100">
+            <div data-sal="zoom-in" class="card h-100">
               <div class="card-body text-center">
                 <i class="bi bi-stars text-warning display-5"></i>
                 <h5 class="card-title">VISI</h5>
@@ -174,7 +179,7 @@ Thank you for using this template!
           </div>
           <!-- Misi -->
            <div class="col-md-4 mb-4">
-            <div class="card h-100">
+            <div data-sal="zoom-in" class="card h-100">
               <div class="card-body text-center">
                 <i class="bi bi-compass text-primary display-5"></i>
                 <h5 class="card-title">MISI</h5>
@@ -184,7 +189,7 @@ Thank you for using this template!
           </div>
           <!-- Tujuan -->
            <div class="col-md-4 mb-4">
-            <div class="card h-100">
+            <div data-sal="zoom-in" class="card h-100">
               <div class="card-body text-center">
                 <i class="bi bi-bullseye text-success display-5"></i>
                 <h5 class="card-title">TUJUAN</h5>
@@ -519,6 +524,7 @@ Thank you for using this template!
 </div>
 </div>
 <!-- END SECTION TESTIMONIALS --> 
+ </main>
 
  <!-- Footer component adapted from @anonymous on BootstrapExamples:
     • Author: @anonymous (https://bootstrapexamples.com/@anonymous)
@@ -625,5 +631,12 @@ Thank you for using this template!
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script>
+    <script>
+  // Inisialisasi Sal.js dengan konfigurasi dasar
+  sal({
+    threshold: 0.3,   // Animasi muncul saat elemen 50% terlihat di layar
+    once: false,        // Animasi hanya muncul sekali (opsional)
+  });
+</script>
   </body>
 </html>
