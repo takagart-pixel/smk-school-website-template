@@ -25,6 +25,10 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
+    <!-- CSS Sal.js -->
+    <link rel="stylesheet" href="https://unpkg.com/sal.js@0.8.5/dist/sal.css">
+    <!-- JS Sal.js -->
+    <script src="https://unpkg.com/sal.js@0.8.5/dist/sal.js"></script>
     <!-- CUSTOM CSS FILES -->
     <!-- Custom stylesheets - Modify these files for styling changes -->
     <!-- Navbar CSS Custome -->
@@ -36,7 +40,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav data-sal="slide-down" data-sal-duration="900" class="navbar navbar-expand-lg fixed-top shadow-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
             <img class="img" src="assets/img/logo-sekolah-tut-wuri-handayani.avif" alt="Logo Sekolah" width="auto" height="40">
@@ -99,7 +103,7 @@
     <!-- Full-width header section - Background set in CSS -->
      <main>
     <section class="hero-section">
-      <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column d-sm text-center ">
+      <div data-sal="slide-up" data-sal-duration="900" class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column d-sm text-center ">
         <h1 class="display-3 fw-bold text-uppercase">Teknik Komputer dan Jaringan</h1>
         <h2 class="fs-4 mb-4 text-capitalize">Infrastruktur Digital Dimulai dari Sini</h2>
         <a href="#TKJ" class="btn btn-outline-light">Mulai Jelajahi Jaringanmu<i class="bi bi-router ms-2"></i> </a>
@@ -112,11 +116,15 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8 order-1">
-                        <h2 class="text-uppercase mb-2 mt-3 mt-md-0">tentang program tkj</h2>
+                  <div data-sal="slide-right" data-sal-duration="900">
+                    <h2 class="text-uppercase mb-2 mt-3 mt-md-0">tentang program tkj</h2>
                         <p class="text-capitalize text-justify">Jurusan Teknik Komputer dan Jaringan (TKJ) mempersiapkan siswa menjadi ahli dalam merancang, membangun, dan mengelola infrastruktur jaringan serta sistem komputer yang andal. Di sini, siswa akan mempelajari full-stack pengelolaan jaringan — mulai dari analisis kebutuhan sistem, instalasi perangkat jaringan, konfigurasi server, keamanan siber, hingga pemeliharaan infrastruktur — melalui praktik langsung dengan perangkat CISCO, MikroTik, dan simulasi jaringan realistik. Dengan kurikulum berbasis industri dan proyek kolaboratif, jurusan TKJ mengasah keterampilan teknis, logika troubleshooting, dan kesadaran keamanan digital, sehingga lulusannya siap menjadi teknisi jaringan, administrator sistem, atau ahli siber yang kompeten di era transformasi digital.</p>
+                  </div>
                 </div>
                 <div class="col-md-4 order-md-2">
+                  <div data-sal="slide-up" data-sal-duration="900">
                     <img src="assets/img/brett-jordan-OCfHTaB5THQ-unsplash.jpg" loading="lazy" alt="" class="img-fluid rounded shadow-lg scale-up">
+                  </div>
                 </div>
             </div>
         </div>
@@ -130,7 +138,7 @@
             <div class="row">
                 <!-- Kompetensi 1 -->
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100 scale-up">
+                    <div data-sal="slide-up" class="card h-100 scale-up">
                         <div class="card-body text-center">
                             <i class="bi bi-router text-primary display-6"></i>
                             <h5 class="card-title">Jaringan Komputer</h5>
@@ -140,7 +148,7 @@
                 </div>
                 <!-- Kompetensi 2 -->
                  <div class="col-md-4 mb-4">
-                    <div class="card h-100 scale-up">
+                    <div data-sal="slide-up" class="card h-100 scale-up">
                         <div class="card-body text-center">
                             <i class="bi bi-shield-lock text-success display-6"></i>
                             <h5 class="card-title">Keamanan Siber</h5>
@@ -150,7 +158,7 @@
                 </div>
                 <!-- Kompetensi 3 -->
                  <div class="col-md-4 mb-4">
-                    <div class="card h-100 scale-up">
+                    <div data-sal="slide-up" class="card h-100 scale-up">
                         <div class="card-body text-center">
                             <i class="bi bi-server text-warning display-6"></i>
                             <h5 class="card-title">Administrasi Server</h5>
@@ -170,10 +178,12 @@
           <h2 class="text-center mb-5 text-uppercase">Fasilitas Di Jurusan TKJ</h2>
           <div class="row align-items-center">
             <div class="col-md-6">
+              <div data-sal="slide-right" data-sal-duration="900">
               <img src="assets/img/imgix-klWUhr-wPJ8-unsplash.jpg" loading="lazy" alt="" class="img-fluid rounded shadow-lg scale-up">
+              </div>
             </div>
           <div class="col-md-6">
-            <div class="card border-0 shadow scale-up">
+            <div data-sal="slide-up" class="card border-0 shadow scale-up">
             <div class="card-body">
               <ul class="list-unstyled">
                 <!-- Lab Komputer & Spesifikasi Komputer -->
@@ -274,7 +284,7 @@
 
           <!-- Item 1 -->
        <div class="col-md-4 mb-4">
-  <div class="card h-100 scale-up scale-up">
+  <div data-sal="slide-up" class="card h-100 scale-up scale-up">
     <div class="card-body text-center">
       <i class="bi bi-diagram-3 display-6 text-primary"></i>
       <h5 class="card-title mb-3">Network Engineer</h5>
@@ -296,7 +306,7 @@
 </div>
         <!-- Item 2 -->
           <div class="col-md-4 mb-4">
-  <div class="card h-100 scale-up scale-up">
+  <div data-sal="slide-up" class="card h-100 scale-up scale-up">
     <div class="card-body text-center">
       <i class="bi bi-shield-lock display-6 text-primary"></i>
       <h5 class="card-title mb-3">Cybersecurity Analyst</h5>
@@ -319,7 +329,7 @@
 
         <!-- item 3 -->
           <div class="col-md-4 mb-4">
-  <div class="card h-100 scale-up">
+  <div data-sal="slide-up" class="card h-100 scale-up">
     <div class="card-body text-center">
       <i class="bi bi-server display-6 text-primary"></i>
       <h5 class="card-title mb-3">System Administrator</h5>
@@ -342,7 +352,7 @@
 
         <!-- item 4 -->
           <div class="col-md-6 mb-4">
-  <div class="card h-100 scale-up">
+  <div data-sal="slide-up" class="card h-100 scale-up">
     <div class="card-body text-center">
       <i class="bi bi-wifi display-6 text-primary"></i>
       <h5 class="card-title mb-3">Network Technician</h5>
@@ -365,7 +375,7 @@
 
         <!-- item 5 -->
           <div class="col-md-6 mb-4">
-  <div class="card h-100 scale-up">
+  <div data-sal="slide-up" class="card h-100 scale-up">
     <div class="card-body text-center">
       <i class="bi bi-diagram-3 display-6 text-primary"></i>
       <h5 class="card-title mb-3">IT Infrastructure Specialist</h5>
@@ -401,19 +411,25 @@
           <!-- Foto 1 -->
           <div class="col-md-4">
             <a href="assets/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" data-toggle="lightbox" data-gallery="Galeri-Kegiatan" data-caption="Siswa/i Sedang Melakukan Coding">
-              <img src="assets/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" alt="" class="img-fluid shadow-lg rounded mb-3 scale-up">
+              <div data-sal="slide-up" data-sal-duration="900">
+                <img src="assets/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" alt="" class="img-fluid shadow-lg rounded mb-3 scale-up">
+              </div>
             </a>
           </div>
           <!-- Foto 2 -->
            <div class="col-md-4">
             <a href="assets/img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg" data-toggle="lightbox" data-gallery="Galeri-Kegiatan" data-caption="This describes the image">
-              <img src="assets/img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg" alt="" class="img-fluid shadow-lg rounded mb-3 scale-up">
+              <div data-sal="slide-up" data-sal-duration="900">
+                <img src="assets/img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg" alt="" class="img-fluid shadow-lg rounded mb-3 scale-up">
+              </div>
             </a>
           </div>
           <!-- Foto 3 -->
            <div class="col-md-4">
             <a href="assets/img/sigmund-AQTA5E6mCNU-unsplash.jpg" data-toggle="lightbox" data-gallery="Galeri-Kegiatan" data-caption="This describes the image">
-              <img src="assets/img/sigmund-AQTA5E6mCNU-unsplash.jpg" alt="" class="img-fluid shadow-lg rounded mb-3 scale-up">
+              <div data-sal="slide-up" data-sal-duration="900">
+                <img src="assets/img/sigmund-AQTA5E6mCNU-unsplash.jpg" alt="" class="img-fluid shadow-lg rounded mb-3 scale-up">
+              </div>
             </a>
           </div>
           <!-- N -->
@@ -533,5 +549,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
-  </body>
+    <script src="assets/js/sal.js"></script>
+  </body> 
 </html>
