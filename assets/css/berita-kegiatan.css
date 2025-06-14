@@ -21,6 +21,7 @@ body {
 
 .img-news {
   height: 17rem;
+  object-fit: cover;
 }
 
 .text-news {
@@ -62,4 +63,8 @@ body {
   .scale-up {
     transition: transform 0.3s;
   }
+}
+
+.news-text {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
