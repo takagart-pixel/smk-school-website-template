@@ -15,3 +15,11 @@ body {
   height: 17rem;
   object-fit: cover;
 }
+
+.icon-facebook:hover {
+  color: white !important;
+}
+
+.icon-instagram:hover {
+  color: white !important;
+}
