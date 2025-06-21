@@ -23,6 +23,7 @@ Welcome to the **SMK School Website Template**, a free and open‑source HTML/CS
 - **HTML 5**
 - **CSS 3**
 - **Bootstrap 5**
+- **[Lightbox for Boostrap 5]**(https://trvswgnr.github.io/bs5-lightbox/)
 
 ---
 
