@@ -88,7 +88,7 @@ Welcome to the **SMK School Website Template**, a free and open‑source HTML/CS
 
 ## 💡 Demo & Video Tutorial
 
-- **Live Demo**: [Preview the template](https://miawwh.github.io/smk-school-website-template/)
+- **Live Demo**: [Preview the template](https://smk-inovasi-digital-manado-orcin.vercel.app/)
   _Note: All content is placeholder and for demonstration only_
 
 - **Video Tutorial**: Coming soon on YouTube!
